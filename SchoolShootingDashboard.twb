@@ -1,0 +1,2841 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0909.1155                               -->
+<workbook original-version='18.1' source-build='2023.1.6 (20231.23.0909.1155)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='school-shootings-data (school-shootings-data)' inline='true' name='federated.10gq3sw0cpdtp212eosli00n87zd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='school-shootings-data' name='excel-direct.1gpcbcx1pqmalm1f00pjc05jem5m'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/aabro/OneDrive/Desktop/SMU Program/Classes/Visualization/Midterm Project/school-shootings-data.xlsm' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1gpcbcx1pqmalm1f00pjc05jem5m' name='school-shootings-data' table='[&apos;school-shootings-data$&apos;]' type='table'>
+          <columns gridOrigin='A1:AZ388:no:A1:AZ388:0' header='yes' outcome='2'>
+            <column datatype='integer' name='uid' ordinal='0' />
+            <column datatype='integer' name='nces_school_id' ordinal='1' />
+            <column datatype='string' name='school_name' ordinal='2' />
+            <column datatype='string' name='school_level' ordinal='3' />
+            <column datatype='integer' name='nces_district_id' ordinal='4' />
+            <column datatype='string' name='district_name' ordinal='5' />
+            <column datatype='date' name='date' ordinal='6' />
+            <column datatype='string' name='school_year' ordinal='7' />
+            <column datatype='integer' name='year' ordinal='8' />
+            <column datatype='datetime' name='time' ordinal='9' />
+            <column datatype='string' name='day_of_week' ordinal='10' />
+            <column datatype='string' name='city' ordinal='11' />
+            <column datatype='string' name='state' ordinal='12' />
+            <column datatype='integer' name='state_population' ordinal='13' />
+            <column datatype='string' name='school_type' ordinal='14' />
+            <column datatype='integer' name='enrollment' ordinal='15' />
+            <column datatype='integer' name='killed' ordinal='16' />
+            <column datatype='integer' name='injured' ordinal='17' />
+            <column datatype='integer' name='casualties' ordinal='18' />
+            <column datatype='string' name='shooting_type' ordinal='19' />
+            <column datatype='integer' name='age_shooter1' ordinal='20' />
+            <column datatype='string' name='gender_shooter1' ordinal='21' />
+            <column datatype='string' name='race_ethnicity_shooter1' ordinal='22' />
+            <column datatype='string' name='shooter_relationship1' ordinal='23' />
+            <column datatype='integer' name='shooter_deceased1' ordinal='24' />
+            <column datatype='string' name='deceased_notes1' ordinal='25' />
+            <column datatype='integer' name='age_shooter2' ordinal='26' />
+            <column datatype='string' name='gender_shooter2' ordinal='27' />
+            <column datatype='string' name='race_ethnicity_shooter2' ordinal='28' />
+            <column datatype='string' name='shooter_relationship2' ordinal='29' />
+            <column datatype='integer' name='shooter_deceased2' ordinal='30' />
+            <column datatype='string' name='deceased_notes2' ordinal='31' />
+            <column datatype='integer' name='white' ordinal='32' />
+            <column datatype='integer' name='black' ordinal='33' />
+            <column datatype='integer' name='hispanic' ordinal='34' />
+            <column datatype='integer' name='asian' ordinal='35' />
+            <column datatype='integer' name='american_indian_alaska_native' ordinal='36' />
+            <column datatype='integer' name='hawaiian_native_pacific_islander' ordinal='37' />
+            <column datatype='integer' name='two_or_more' ordinal='38' />
+            <column datatype='integer' name='resource_officer' ordinal='39' />
+            <column datatype='string' name='weapon' ordinal='40' />
+            <column datatype='string' name='weapon_source' ordinal='41' />
+            <column datatype='real' name='lat' ordinal='42' />
+            <column datatype='real' name='long' ordinal='43' />
+            <column datatype='real' name='staffing' ordinal='44' />
+            <column datatype='string' name='low_grade' ordinal='45' />
+            <column datatype='integer' name='high_grade' ordinal='46' />
+            <column datatype='integer' name='lunch' ordinal='47' />
+            <column datatype='string' name='county' ordinal='48' />
+            <column datatype='integer' name='state_fips' ordinal='49' />
+            <column datatype='integer' name='county_fips' ordinal='50' />
+            <column datatype='integer' name='ulocale' ordinal='51' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1gpcbcx1pqmalm1f00pjc05jem5m' name='school-shootings-data' table='[&apos;school-shootings-data$&apos;]' type='table'>
+          <columns gridOrigin='A1:AZ388:no:A1:AZ388:0' header='yes' outcome='2'>
+            <column datatype='integer' name='uid' ordinal='0' />
+            <column datatype='integer' name='nces_school_id' ordinal='1' />
+            <column datatype='string' name='school_name' ordinal='2' />
+            <column datatype='string' name='school_level' ordinal='3' />
+            <column datatype='integer' name='nces_district_id' ordinal='4' />
+            <column datatype='string' name='district_name' ordinal='5' />
+            <column datatype='date' name='date' ordinal='6' />
+            <column datatype='string' name='school_year' ordinal='7' />
+            <column datatype='integer' name='year' ordinal='8' />
+            <column datatype='datetime' name='time' ordinal='9' />
+            <column datatype='string' name='day_of_week' ordinal='10' />
+            <column datatype='string' name='city' ordinal='11' />
+            <column datatype='string' name='state' ordinal='12' />
+            <column datatype='integer' name='state_population' ordinal='13' />
+            <column datatype='string' name='school_type' ordinal='14' />
+            <column datatype='integer' name='enrollment' ordinal='15' />
+            <column datatype='integer' name='killed' ordinal='16' />
+            <column datatype='integer' name='injured' ordinal='17' />
+            <column datatype='integer' name='casualties' ordinal='18' />
+            <column datatype='string' name='shooting_type' ordinal='19' />
+            <column datatype='integer' name='age_shooter1' ordinal='20' />
+            <column datatype='string' name='gender_shooter1' ordinal='21' />
+            <column datatype='string' name='race_ethnicity_shooter1' ordinal='22' />
+            <column datatype='string' name='shooter_relationship1' ordinal='23' />
+            <column datatype='integer' name='shooter_deceased1' ordinal='24' />
+            <column datatype='string' name='deceased_notes1' ordinal='25' />
+            <column datatype='integer' name='age_shooter2' ordinal='26' />
+            <column datatype='string' name='gender_shooter2' ordinal='27' />
+            <column datatype='string' name='race_ethnicity_shooter2' ordinal='28' />
+            <column datatype='string' name='shooter_relationship2' ordinal='29' />
+            <column datatype='integer' name='shooter_deceased2' ordinal='30' />
+            <column datatype='string' name='deceased_notes2' ordinal='31' />
+            <column datatype='integer' name='white' ordinal='32' />
+            <column datatype='integer' name='black' ordinal='33' />
+            <column datatype='integer' name='hispanic' ordinal='34' />
+            <column datatype='integer' name='asian' ordinal='35' />
+            <column datatype='integer' name='american_indian_alaska_native' ordinal='36' />
+            <column datatype='integer' name='hawaiian_native_pacific_islander' ordinal='37' />
+            <column datatype='integer' name='two_or_more' ordinal='38' />
+            <column datatype='integer' name='resource_officer' ordinal='39' />
+            <column datatype='string' name='weapon' ordinal='40' />
+            <column datatype='string' name='weapon_source' ordinal='41' />
+            <column datatype='real' name='lat' ordinal='42' />
+            <column datatype='real' name='long' ordinal='43' />
+            <column datatype='real' name='staffing' ordinal='44' />
+            <column datatype='string' name='low_grade' ordinal='45' />
+            <column datatype='integer' name='high_grade' ordinal='46' />
+            <column datatype='integer' name='lunch' ordinal='47' />
+            <column datatype='string' name='county' ordinal='48' />
+            <column datatype='integer' name='state_fips' ordinal='49' />
+            <column datatype='integer' name='county_fips' ordinal='50' />
+            <column datatype='integer' name='ulocale' ordinal='51' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AZ388:no:A1:AZ388:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>uid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[uid]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>uid</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nces_school_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nces_school_id]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>nces_school_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>school_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[school_name]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>school_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>school_level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[school_level]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>school_level</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nces_district_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nces_district_id]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>nces_district_id</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>district_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[district_name]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>district_name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>school_year</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[school_year]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>school_year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>time</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[time]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>time</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day_of_week</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[day_of_week]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>day_of_week</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>state</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[state_population]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>state_population</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>school_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[school_type]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>school_type</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>enrollment</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[enrollment]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>enrollment</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>killed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[killed]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>killed</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>injured</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[injured]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>injured</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>casualties</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[casualties]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>casualties</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shooting_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[shooting_type]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>shooting_type</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_shooter1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_shooter1]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>age_shooter1</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender_shooter1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gender_shooter1]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>gender_shooter1</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race_ethnicity_shooter1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[race_ethnicity_shooter1]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>race_ethnicity_shooter1</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shooter_relationship1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[shooter_relationship1]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>shooter_relationship1</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shooter_deceased1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[shooter_deceased1]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>shooter_deceased1</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deceased_notes1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[deceased_notes1]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>deceased_notes1</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_shooter2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age_shooter2]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>age_shooter2</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender_shooter2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[gender_shooter2]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>gender_shooter2</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>race_ethnicity_shooter2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[race_ethnicity_shooter2]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>race_ethnicity_shooter2</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shooter_relationship2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[shooter_relationship2]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>shooter_relationship2</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shooter_deceased2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[shooter_deceased2]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>shooter_deceased2</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>deceased_notes2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[deceased_notes2]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>deceased_notes2</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>white</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[white]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>white</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>black</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[black]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>black</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hispanic</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hispanic]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>hispanic</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>asian</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[asian]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>asian</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>american_indian_alaska_native</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[american_indian_alaska_native]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>american_indian_alaska_native</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hawaiian_native_pacific_islander</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hawaiian_native_pacific_islander]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>hawaiian_native_pacific_islander</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>two_or_more</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[two_or_more]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>two_or_more</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resource_officer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[resource_officer]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>resource_officer</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapon</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weapon]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>weapon</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapon_source</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[weapon_source]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>weapon_source</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lat]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>lat</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>long</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[long]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>long</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>staffing</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[staffing]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>staffing</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>low_grade</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[low_grade]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>low_grade</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>high_grade</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[high_grade]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>high_grade</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lunch</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[lunch]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>lunch</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>county</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_fips</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[state_fips]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>state_fips</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_fips</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[county_fips]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>county_fips</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ulocale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ulocale]</local-name>
+            <parent-name>[school-shootings-data]</parent-name>
+            <remote-alias>ulocale</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='school-shootings-data' datatype='table' name='[__tableau_internal_object_id__].[school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE]' role='measure' type='quantitative' />
+      <column caption='Age Shooter1' datatype='integer' name='[age_shooter1]' role='measure' type='quantitative' />
+      <column caption='Age Shooter2' datatype='integer' name='[age_shooter2]' role='measure' type='quantitative' />
+      <column caption='American Indian Alaska Native' datatype='integer' name='[american_indian_alaska_native]' role='measure' type='quantitative' />
+      <column caption='Asian' datatype='integer' name='[asian]' role='measure' type='quantitative' />
+      <column caption='Black' datatype='integer' name='[black]' role='measure' type='quantitative' />
+      <column caption='Casualties' datatype='integer' name='[casualties]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='County' datatype='string' name='[county]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Fips' datatype='integer' name='[county_fips]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Day Of Week' datatype='string' name='[day_of_week]' role='dimension' type='nominal' />
+      <column caption='Deceased Notes1' datatype='string' name='[deceased_notes1]' role='dimension' type='nominal' />
+      <column caption='Deceased Notes2' datatype='string' name='[deceased_notes2]' role='dimension' type='nominal' />
+      <column caption='District Name' datatype='string' name='[district_name]' role='dimension' type='nominal' />
+      <column caption='Enrollment' datatype='integer' name='[enrollment]' role='measure' type='quantitative' />
+      <column caption='Gender Shooter1' datatype='string' name='[gender_shooter1]' role='dimension' type='nominal' />
+      <column caption='Gender Shooter2' datatype='string' name='[gender_shooter2]' role='dimension' type='nominal' />
+      <column caption='Hawaiian Native Pacific Islander' datatype='integer' name='[hawaiian_native_pacific_islander]' role='measure' type='quantitative' />
+      <column caption='High Grade' datatype='integer' name='[high_grade]' role='measure' type='quantitative' />
+      <column caption='Hispanic' datatype='integer' name='[hispanic]' role='measure' type='quantitative' />
+      <column caption='Injured' datatype='integer' name='[injured]' role='measure' type='quantitative' />
+      <column caption='Killed' datatype='integer' name='[killed]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Lat' datatype='real' name='[lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Long' datatype='real' name='[long]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Low Grade' datatype='string' name='[low_grade]' role='dimension' type='nominal' />
+      <column caption='Lunch' datatype='integer' name='[lunch]' role='measure' type='quantitative' />
+      <column caption='Nces District Id' datatype='integer' name='[nces_district_id]' role='dimension' type='ordinal' />
+      <column caption='Nces School Id' datatype='integer' name='[nces_school_id]' role='dimension' type='ordinal' />
+      <column caption='Race Ethnicity Shooter1' datatype='string' name='[race_ethnicity_shooter1]' role='dimension' type='nominal' />
+      <column caption='Race Ethnicity Shooter2' datatype='string' name='[race_ethnicity_shooter2]' role='dimension' type='nominal' />
+      <column caption='Resource Officer' datatype='integer' name='[resource_officer]' role='measure' type='quantitative' />
+      <column caption='School Level' datatype='string' name='[school_level]' role='dimension' type='nominal' />
+      <column caption='School Name' datatype='string' name='[school_name]' role='dimension' type='nominal' />
+      <column caption='School Type' datatype='string' name='[school_type]' role='dimension' type='nominal' />
+      <column caption='School Year' datatype='string' name='[school_year]' role='dimension' type='nominal' />
+      <column caption='Shooter Deceased1' datatype='integer' name='[shooter_deceased1]' role='measure' type='quantitative' />
+      <column caption='Shooter Deceased2' datatype='integer' name='[shooter_deceased2]' role='measure' type='quantitative' />
+      <column caption='Shooter Relationship1' datatype='string' name='[shooter_relationship1]' role='dimension' type='nominal' />
+      <column caption='Shooter Relationship2' datatype='string' name='[shooter_relationship2]' role='dimension' type='nominal' />
+      <column caption='Shooting Type' datatype='string' name='[shooting_type]' role='dimension' type='nominal' />
+      <column caption='Staffing' datatype='real' name='[staffing]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State Fips' datatype='integer' name='[state_fips]' role='measure' type='quantitative' />
+      <column caption='State Population' datatype='integer' name='[state_population]' role='measure' type='quantitative' />
+      <column caption='Time' datatype='datetime' name='[time]' role='dimension' type='ordinal' />
+      <column caption='Two Or More' datatype='integer' name='[two_or_more]' role='measure' type='quantitative' />
+      <column caption='Uid' datatype='integer' name='[uid]' role='measure' type='quantitative' />
+      <column caption='Ulocale' datatype='integer' name='[ulocale]' role='measure' type='quantitative' />
+      <column caption='Weapon' datatype='string' name='[weapon]' role='dimension' type='nominal' />
+      <column caption='Weapon Source' datatype='string' name='[weapon_source]' role='dimension' type='nominal' />
+      <column caption='White' datatype='integer' name='[white]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[gender_shooter1]' derivation='None' name='[none:gender_shooter1:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:gender_shooter1:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;m&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;h&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;f&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='school-shootings-data' id='school-shootings-data_4E97BC7E70244E58BBA7A69FB237BDBE'>
+            <properties context=''>
+              <relation connection='excel-direct.1gpcbcx1pqmalm1f00pjc05jem5m' name='school-shootings-data' table='[&apos;school-shootings-data$&apos;]' type='table'>
+                <columns gridOrigin='A1:AZ388:no:A1:AZ388:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='uid' ordinal='0' />
+                  <column datatype='integer' name='nces_school_id' ordinal='1' />
+                  <column datatype='string' name='school_name' ordinal='2' />
+                  <column datatype='string' name='school_level' ordinal='3' />
+                  <column datatype='integer' name='nces_district_id' ordinal='4' />
+                  <column datatype='string' name='district_name' ordinal='5' />
+                  <column datatype='date' name='date' ordinal='6' />
+                  <column datatype='string' name='school_year' ordinal='7' />
+                  <column datatype='integer' name='year' ordinal='8' />
+                  <column datatype='datetime' name='time' ordinal='9' />
+                  <column datatype='string' name='day_of_week' ordinal='10' />
+                  <column datatype='string' name='city' ordinal='11' />
+                  <column datatype='string' name='state' ordinal='12' />
+                  <column datatype='integer' name='state_population' ordinal='13' />
+                  <column datatype='string' name='school_type' ordinal='14' />
+                  <column datatype='integer' name='enrollment' ordinal='15' />
+                  <column datatype='integer' name='killed' ordinal='16' />
+                  <column datatype='integer' name='injured' ordinal='17' />
+                  <column datatype='integer' name='casualties' ordinal='18' />
+                  <column datatype='string' name='shooting_type' ordinal='19' />
+                  <column datatype='integer' name='age_shooter1' ordinal='20' />
+                  <column datatype='string' name='gender_shooter1' ordinal='21' />
+                  <column datatype='string' name='race_ethnicity_shooter1' ordinal='22' />
+                  <column datatype='string' name='shooter_relationship1' ordinal='23' />
+                  <column datatype='integer' name='shooter_deceased1' ordinal='24' />
+                  <column datatype='string' name='deceased_notes1' ordinal='25' />
+                  <column datatype='integer' name='age_shooter2' ordinal='26' />
+                  <column datatype='string' name='gender_shooter2' ordinal='27' />
+                  <column datatype='string' name='race_ethnicity_shooter2' ordinal='28' />
+                  <column datatype='string' name='shooter_relationship2' ordinal='29' />
+                  <column datatype='integer' name='shooter_deceased2' ordinal='30' />
+                  <column datatype='string' name='deceased_notes2' ordinal='31' />
+                  <column datatype='integer' name='white' ordinal='32' />
+                  <column datatype='integer' name='black' ordinal='33' />
+                  <column datatype='integer' name='hispanic' ordinal='34' />
+                  <column datatype='integer' name='asian' ordinal='35' />
+                  <column datatype='integer' name='american_indian_alaska_native' ordinal='36' />
+                  <column datatype='integer' name='hawaiian_native_pacific_islander' ordinal='37' />
+                  <column datatype='integer' name='two_or_more' ordinal='38' />
+                  <column datatype='integer' name='resource_officer' ordinal='39' />
+                  <column datatype='string' name='weapon' ordinal='40' />
+                  <column datatype='string' name='weapon_source' ordinal='41' />
+                  <column datatype='real' name='lat' ordinal='42' />
+                  <column datatype='real' name='long' ordinal='43' />
+                  <column datatype='real' name='staffing' ordinal='44' />
+                  <column datatype='string' name='low_grade' ordinal='45' />
+                  <column datatype='integer' name='high_grade' ordinal='46' />
+                  <column datatype='integer' name='lunch' ordinal='47' />
+                  <column datatype='string' name='county' ordinal='48' />
+                  <column datatype='integer' name='state_fips' ordinal='49' />
+                  <column datatype='integer' name='county_fips' ordinal='50' />
+                  <column datatype='integer' name='ulocale' ordinal='51' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Gender Casualties'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='school-shootings-data (school-shootings-data)' name='federated.10gq3sw0cpdtp212eosli00n87zd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10gq3sw0cpdtp212eosli00n87zd'>
+            <column caption='Casualties' datatype='integer' name='[casualties]' role='measure' type='quantitative' />
+            <column caption='Gender Shooter1' datatype='string' name='[gender_shooter1]' role='dimension' type='nominal' />
+            <column-instance column='[gender_shooter1]' derivation='None' name='[none:gender_shooter1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[casualties]' derivation='Sum' name='[sum:casualties:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:gender_shooter1:nk]' member='&quot;f&quot;' />
+              <groupfilter function='member' level='[none:gender_shooter1:nk]' member='&quot;m&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]' />
+              <wedge-size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' />
+              <size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9F5E1C27-6795-43CA-8E07-5B402B120186}' />
+    </worksheet>
+    <worksheet name='Gender Counts'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='school-shootings-data (school-shootings-data)' name='federated.10gq3sw0cpdtp212eosli00n87zd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10gq3sw0cpdtp212eosli00n87zd'>
+            <column-instance column='[gender_shooter1]' derivation='Count' name='[cnt:gender_shooter1:qk]' pivot='key' type='quantitative' />
+            <column caption='Gender Shooter1' datatype='string' name='[gender_shooter1]' role='dimension' type='nominal' />
+            <column-instance column='[gender_shooter1]' derivation='None' name='[none:gender_shooter1:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:gender_shooter1:nk]' member='&quot;f&quot;' />
+              <groupfilter function='member' level='[none:gender_shooter1:nk]' member='&quot;m&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]' />
+              <wedge-size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:gender_shooter1:qk]' />
+              <size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:gender_shooter1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{417B5949-4E11-4A05-9B56-552B7552806D}' />
+    </worksheet>
+    <worksheet name='Gender Killings'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='school-shootings-data (school-shootings-data)' name='federated.10gq3sw0cpdtp212eosli00n87zd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10gq3sw0cpdtp212eosli00n87zd'>
+            <column caption='Gender Shooter1' datatype='string' name='[gender_shooter1]' role='dimension' type='nominal' />
+            <column caption='Killed' datatype='integer' name='[killed]' role='measure' type='quantitative' />
+            <column-instance column='[gender_shooter1]' derivation='None' name='[none:gender_shooter1:nk]' pivot='key' type='nominal' />
+            <column-instance column='[killed]' derivation='Sum' name='[sum:killed:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:gender_shooter1:nk]' member='&quot;f&quot;' />
+              <groupfilter function='member' level='[none:gender_shooter1:nk]' member='&quot;m&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]' />
+              <wedge-size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' />
+              <size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{19CD0E38-B9C6-4D08-AABA-9FE070625819}' />
+    </worksheet>
+    <worksheet name='School Type Casualties'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='school-shootings-data (school-shootings-data)' name='federated.10gq3sw0cpdtp212eosli00n87zd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10gq3sw0cpdtp212eosli00n87zd'>
+            <column caption='Casualties' datatype='integer' name='[casualties]' role='measure' type='quantitative' />
+            <column-instance column='[school_level]' derivation='None' name='[none:school_level:nk]' pivot='key' type='nominal' />
+            <column caption='School Level' datatype='string' name='[school_level]' role='dimension' type='nominal' />
+            <column-instance column='[casualties]' derivation='Sum' name='[sum:casualties:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]' />
+              <wedge-size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' />
+              <size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CDF94073-397E-4F05-B664-19A109C135C9}' />
+    </worksheet>
+    <worksheet name='School Type Counts'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='school-shootings-data (school-shootings-data)' name='federated.10gq3sw0cpdtp212eosli00n87zd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10gq3sw0cpdtp212eosli00n87zd'>
+            <column-instance column='[school_level]' derivation='Count' name='[cnt:school_level:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[school_level]' derivation='None' name='[none:school_level:nk]' pivot='key' type='nominal' />
+            <column caption='School Level' datatype='string' name='[school_level]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]' />
+              <wedge-size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:school_level:qk]' />
+              <size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:school_level:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{90E38754-5CA6-4121-A86F-BCEDAECD4EEA}' />
+    </worksheet>
+    <worksheet name='School Type Killings'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='school-shootings-data (school-shootings-data)' name='federated.10gq3sw0cpdtp212eosli00n87zd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10gq3sw0cpdtp212eosli00n87zd'>
+            <column caption='Killed' datatype='integer' name='[killed]' role='measure' type='quantitative' />
+            <column-instance column='[school_level]' derivation='None' name='[none:school_level:nk]' pivot='key' type='nominal' />
+            <column caption='School Level' datatype='string' name='[school_level]' role='dimension' type='nominal' />
+            <column-instance column='[killed]' derivation='Sum' name='[sum:killed:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]' />
+              <wedge-size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' />
+              <size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D939EF0B-500D-46EB-87D5-56FA3A87A282}' />
+    </worksheet>
+    <worksheet name='Shooting Type Casualties'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='school-shootings-data (school-shootings-data)' name='federated.10gq3sw0cpdtp212eosli00n87zd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10gq3sw0cpdtp212eosli00n87zd'>
+            <column caption='Casualties' datatype='integer' name='[casualties]' role='measure' type='quantitative' />
+            <column-instance column='[shooting_type]' derivation='None' name='[none:shooting_type:nk]' pivot='key' type='nominal' />
+            <column caption='Shooting Type' datatype='string' name='[shooting_type]' role='dimension' type='nominal' />
+            <column-instance column='[casualties]' derivation='Sum' name='[sum:casualties:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='180' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' />
+              <color column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' />
+              <text column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:shooting_type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{339BDBF4-2DD3-4DA5-9017-557FE700F336}' />
+    </worksheet>
+    <worksheet name='Shooting Type Counts'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='school-shootings-data (school-shootings-data)' name='federated.10gq3sw0cpdtp212eosli00n87zd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10gq3sw0cpdtp212eosli00n87zd'>
+            <column-instance column='[shooting_type]' derivation='Count' name='[cnt:shooting_type:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[shooting_type]' derivation='None' name='[none:shooting_type:nk]' pivot='key' type='nominal' />
+            <column caption='Shooting Type' datatype='string' name='[shooting_type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='184' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:shooting_type:qk]' />
+              <color column='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:shooting_type:qk]' />
+              <text column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:shooting_type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F3B9FDA1-0CCF-4809-A5FF-509DCB79B5D8}' />
+    </worksheet>
+    <worksheet name='Shooting Type Killings'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='12'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='school-shootings-data (school-shootings-data)' name='federated.10gq3sw0cpdtp212eosli00n87zd' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10gq3sw0cpdtp212eosli00n87zd'>
+            <column caption='Killed' datatype='integer' name='[killed]' role='measure' type='quantitative' />
+            <column-instance column='[shooting_type]' derivation='None' name='[none:shooting_type:nk]' pivot='key' type='nominal' />
+            <column caption='Shooting Type' datatype='string' name='[shooting_type]' role='dimension' type='nominal' />
+            <column-instance column='[killed]' derivation='Sum' name='[sum:killed:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='185' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' />
+              <color column='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' />
+              <text column='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:shooting_type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{25A645E2-AB15-4F43-A6C5-3D4E89C253F3}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='83200' x='800' y='1000'>
+              <zone h='32250' id='3' name='Gender Counts' w='26800' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32250' id='10' name='Gender Killings' w='27908' x='27600' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='32250' id='12' name='Gender Casualties' w='28492' x='55508' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='35000' id='14' name='School Type Counts' w='26800' x='800' y='33250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='35000' id='17' name='School Type Killings' w='27908' x='27600' y='33250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='35000' id='18' name='School Type Casualties' w='28492' x='55508' y='33250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='30750' id='19' name='Shooting Type Counts' w='26800' x='800' y='68250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='30750' id='21' name='Shooting Type Killings' w='27908' x='27600' y='68250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='30750' id='23' name='Shooting Type Casualties' w='28492' x='55508' y='68250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='152' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='15200' x='84000' y='1000'>
+              <zone h='9000' id='8' name='Gender Counts' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]' type-v2='color' w='15200' x='84000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6375' id='9' name='Gender Counts' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:gender_shooter1:qk]' type-v2='size' w='15200' x='84000' y='10000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6375' id='11' name='Gender Killings' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' type-v2='size' w='15200' x='84000' y='16375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='6375' id='13' name='Gender Casualties' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' type-v2='size' w='15200' x='84000' y='22750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='14250' id='15' name='School Type Counts' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]' type-v2='color' w='15200' x='84000' y='29125'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2700' minheight='2700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='25' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='24' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='250' h='32250' id='3' is-fixed='true' name='Gender Counts' w='26800' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9000' id='8' name='Gender Counts' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]' type-v2='color' w='15200' x='84000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6375' id='9' name='Gender Counts' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:gender_shooter1:qk]' type-v2='size' w='15200' x='84000' y='10000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='250' h='32250' id='10' is-fixed='true' name='Gender Killings' w='27908' x='27600' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6375' id='11' name='Gender Killings' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' type-v2='size' w='15200' x='84000' y='16375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='250' h='32250' id='12' is-fixed='true' name='Gender Casualties' w='28492' x='55508' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6375' id='13' name='Gender Casualties' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' type-v2='size' w='15200' x='84000' y='22750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='272' h='35000' id='14' is-fixed='true' name='School Type Counts' w='26800' x='800' y='33250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14250' id='15' name='School Type Counts' pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]' type-v2='color' w='15200' x='84000' y='29125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='272' h='35000' id='17' is-fixed='true' name='School Type Killings' w='27908' x='27600' y='33250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='272' h='35000' id='18' is-fixed='true' name='School Type Casualties' w='28492' x='55508' y='33250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='238' h='30750' id='19' is-fixed='true' name='Shooting Type Counts' w='26800' x='800' y='68250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='238' h='30750' id='21' is-fixed='true' name='Shooting Type Killings' w='27908' x='27600' y='68250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='238' h='30750' id='23' is-fixed='true' name='Shooting Type Casualties' w='28492' x='55508' y='68250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{51AF9698-1A44-4379-AD8C-E0D1914E4DFE}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Gender Counts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:gender_shooter1:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B5CEE5F2-F2C9-4103-806D-DD59F7BF3073}' />
+    </window>
+    <window class='worksheet' name='Gender Killings'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{10A2E29B-9913-4783-B922-BDF4DB69F516}' />
+    </window>
+    <window class='worksheet' name='Gender Casualties'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{86B408B5-6BBE-4860-98C8-9902AC16D062}' />
+    </window>
+    <window class='worksheet' name='School Type Counts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:school_level:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A8FF4A6A-CA31-47AB-982F-82D7613F43B8}' />
+    </window>
+    <window class='worksheet' name='School Type Killings'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A931CF50-ADF3-400E-BA6D-C855157D247D}' />
+    </window>
+    <window class='worksheet' name='School Type Casualties'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:school_level:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{BDD16779-14BB-42C4-B76B-C73E846EA78E}' />
+    </window>
+    <window class='worksheet' name='Shooting Type Counts'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:shooting_type:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:shooting_type:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{09816777-7723-404E-B3F7-69E6AA250629}' />
+    </window>
+    <window class='worksheet' name='Shooting Type Killings'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:killed:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:shooting_type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{480F0663-B212-476A-B04B-8F16C464E420}' />
+    </window>
+    <window class='worksheet' name='Shooting Type Casualties'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.10gq3sw0cpdtp212eosli00n87zd].[sum:casualties:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:shooting_type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CF3F6628-1F72-47E1-A398-3602D9FAD906}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Gender Casualties' />
+        <viewpoint name='Gender Counts'>
+          <highlight>
+            <color-one-way>
+              <field>[federated.10gq3sw0cpdtp212eosli00n87zd].[none:gender_shooter1:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Gender Killings' />
+        <viewpoint name='School Type Casualties' />
+        <viewpoint name='School Type Counts'>
+          <highlight field='[federated.10gq3sw0cpdtp212eosli00n87zd].[cnt:school_level:qk]' type='size'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='School Type Killings' />
+        <viewpoint name='Shooting Type Casualties' />
+        <viewpoint name='Shooting Type Counts' />
+        <viewpoint name='Shooting Type Killings' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{E680051F-603F-4B98-8D35-A5D873CAA481}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='164' name='Gender Casualties' width='164'>
+      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
+      gg==
+    </thumbnail>
+    <thumbnail height='164' name='Gender Counts' width='164'>
+      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
+    </thumbnail>
+    <thumbnail height='164' name='Gender Killings' width='164'>
+      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
+    </thumbnail>
+    <thumbnail height='164' name='School Type Casualties' width='164'>
+      iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAMCElEQVR4nO2dT2wU1x3Hv971ek02HqAFE62Xg10OYEyFqJaA1OSAD+RULJpKyS1R1FZC
+      ilAvlSpzqpJD1UOL1EKqpqrUSC1SjIDmElc1KlYkQNtGDiyLVYGtCC8K3toLC+v/f3owzx4v
+      sztvZt5782bm97lg2ePZF+mT37/3PNO0urq6CoLQhJjfCyAIMyQkoRUkJKEVJCShFSQkoRUk
+      JKEVJCShFc1+LyBolGdnUJ6dRXl2BtPPv2bf37hm43vTtzd+t31bau3f7Rv/7tqeQvu2FHq6
+      2hX9F+hNEw3GrTGLd396CuXZGYxNTzm+z+hwlftaJmpPZzvat6dwoLM9cqKSkM9hAt6f/h/G
+      pqdcyWeFEyHr0b49hWOHOiMhaKSFLM/O4N/FB0IFrEWEkLUwQd/u7RF+b7+JnJAs9TIRZSND
+      SDNhkzMSQjIJ709P4T/FB0o/W7aQZo4d6sSBrnYcO9Sp7DNFE2ohWUr+573/+rYGlUIyghw1
+      QymkDiIy/BCSEUQxQyWkTiIy/BTSzFu9Peg91Lk+WtKVUAipo4gMXYRk6C5moIXUWUSGbkIy
+      3urt0TKVB1bIuUIBty9dwsD3vuv3Uhqiq5DAWo15+oevajVsD5yQS6USqteG8WTgIgBg6PtH
+      MLpH3zGHzkIyejrbcfrNV7VI44ES8snAxXURzfz+nbd9WA0fQRCSoUMaD8Txs6VSqa6MAND7
+      xQ3FKwonF4by6P/jVV/XoH2EXCqVMPnLD7BUKjW87vIbvSi+ok8txAhShGT4WVtqK2RtrWhH
+      8ZV2XH6jV/KqnBNEIRl+pHAtU/ZSqYSp8x9xywgAHd9MouObSYmrih5+pHDthGQper5w1/Hv
+      9n0+JGFF0SY/Pokf//oz5MfU/M+ulZBLpRIevn/atl5sRHbktv1FhCMmy1X0f3xViZTaCFm9
+      NoyH75/2fJ/DI3m0PQtu3aYzKqTUQsgnAxcxdf4jYfejMZA8+j++iqtfjku7v+9CNpovuoUa
+      HLmcHbiJswM3pdzbVyFlyMigKCmXq1+OS+nAfRNSpowA0PasSg2OZPLjk/jbUF7oPX0RUraM
+      DGpw5HNhKC+0plQupJPdFxEcpigpnbMDN4V130qFnCsUhHbTPOy9N04NjgJEjYSUCcl2YPyA
+      akk1iJBSiZB+ygisjYH23pM3OyM2OHvxJibL7ut26UKygxJetgNFQGMgNUyWq55mlNKFrF4b
+      dnVQQgYkpRq8jIOkCjlXKCjtqO2gBkcdF4byrupJaUIulUqYPv8HWbd3DTU46jh70Xnqliak
+      DnWjFbTPrY7JctXx9qIUIXWqG62gWlIdTutJ4UKyrlpnaJ9bLReG8tyjIOFCLvzr52jbd1/0
+      bYVD+9xq4R0FCRVyeSKH5Ykcmo0qth4cRWvHI5G3Fw7tc6sjPz7J1XULE3KlUsT89XMbN04u
+      YEvmEdr23UcsuSDqY4RCYyC1/PXSoO01woRk0bEW3aMl1ZLy2RF/jJMvDeMXsV9tClpWCHlQ
+      wEqliOqfjttfN9+C6lgGS5WXvX6kUGQ+sCrIDwrwyo74Y7yevIXXWr/CzviT9e+n3htEzOiw
+      /B0hEXJu8AzXdbHkAtr2jWkXLWkMJJ4d8cf4adtnOJka3iQjACw0iJKehVypFC1TdSO2ZB5h
+      68FRNBvPvH68MEhKMbD0/Ntv/Q77El9bXrNYuIKVStHyZ56FbGR7I3SLltTgeMMs4snUsO31
+      9bzxJORKpYjFwhUvt9AqWlKD4459ia/Rv/UTLhEZ9aKkJyHdRscXFvE8Wvo9UKd9bmfsiD/G
+      T9r+jv5tn7xQJ/Jg5Y/rLpu3s3Z83/kWzJe2Y664S/i9eRH5RN4wdtmse3YSEevR9rPN+9yu
+      I6TTRoYXHQbqlLrr81rrV47TcyNq55KuIqSs6GjF7MQuX6LlX978AZ6+7P0h8GGJkGyMU69z
+      9oI5SrqKkKuVh8IWY4dfTQ+NgdbgGeN4ZbFwef3rZjc3sNv+EQ1relRGS9bg6PjcchWIrBPt
+      WH6QQ6K7D4CLCOlmEC4K1dEyqlFyR/yx0DrRDvPo0LGQfsnIYNEy1SX/vddRO8hrTs9uxjhe
+      YGnbccpevONtEC6Klp1lNBtV6Yc1Do/kMbqnS0iDoysq03M9WNp2FCH9TNdWqBqoh/kgr+gx
+      jlvYzo2jCKmTjGbYmUtZA/W998YxuqcrVA2OzDGOW5Yncs6E1CVdW8EG6smdZTy924WV+Rah
+      98+O3EZRwxczOUWH9FyP5Qc5/sG4ymG4CGSMiNwc5NVlMF7vsKxucNeQKofhIpAxIgrqGKjR
+      YVnd4BZy6YGe9WMjZJy5DJKUKnZZRMNdQ+ra0PDAaksRI6IgNDg614l2cEVI3cY9bhA5UNd5
+      WO7msKxOcEXIoNWPjWADdS8jIh33uVl6fr31lt9L8QRXhAxi/dgIEWcudaklzXVi0GUEOIVc
+      rfMXYkHHy0MMdNjn1mWXRSRcKXslRCnbCrcDdb/2uXXcZRFFpCOkmVhywVW0VLnPHcQxjlNs
+      I+RKpRj6CGnG6YhIxRgoyGMcp9hGyDB12Lw4HajLrCVVH5b1G1d/whAVeKMlezGTyAdWRSkq
+      mrEVMmwjH6ewaLlUSeHp3e/Uva73ixtChIyqiAyOlB3+hoYHnhGR19lkGMc4TuFoaqJXQ9aD
+      DdQTxjNUx3a/MCJy2+CEeYzjFF9e4B50GkVLJw1OFMY4TqGmxgNWTQ/PPndQDsv6AUVIj1iN
+      iPo+H6p7fZAOy/qBbYSkpoaP2miZHbmN3MED6z+PevfMC6VsgZgf+XJ4BBjd00UiOoS6bAmw
+      aHn8Vgrf3lqg1OwAWyFjRpqkdEEsuYC9yet+LyNwUFNDaAUJSWiFrZBNdd64RBAyoAhJaIWt
+      kDEjrWIdBAGAIiShGVRDElphn7K3Usom1MFRQ1KEJNRhK2Q8k1WxDoIAwNnUUKdNqIK6bEIr
+      uISktE2ogktIGv0QquCrIWn0QyiCS0j2YkSCkA13U0N1JKECEpLQCm4hqY4kVMAtJNWRhGxi
+      RtrZYJzSNiGTJqPDmZCJ/SdkrYUgEM9kHQpJaZuQSPNuh0IClLYJOcQzWecREqC0TciBeeVc
+      SErbhGBiRnrdK1fHzxLdFCUJcZgP77gSMr6b6khCHMmjp9a/dhkh++gUOSGEmJHe1Ci7PjHe
+      TLUkIYDaqU3T6urqqtubPf1Nj+cFEdElZqSReu8fm7/n5YbU3BBesJppexKy9fiHXn6diDAx
+      I40WUzOz/n2vN6YoSbghnslaPoTCs5BWlhNEI2JGGon91k2xZyFjRgdFScIRTUZH3TMRQh4U
+      QFGS4CVmpNF6/IP6PxfzIR1oOUJSEvY0d/c1fICZsEepJI+eot0boiExI71pm9DyGpEfSGMg
+      ohE8fggVkh2yJIhaeN0Q/vSzRgUrEU3sGplN14r/cGpwiM3YNTJmpDwfMnn0FKVuAsBaqrZr
+      ZMxIe2AppW7CSape/x1Ja0HM6MBLP/qzrNsTmrMm44eOX5og9ZHO8UyW6smI0tzd56psk/6M
+      caonowfPALzu7wpeiyVUT0aHmJHGFg+lmhIhqZ6MBm7rxk33ELiehsQzWZIyxDAZvZZnSt9T
+      Q1KGF7dNTC3KX5wUz2SppgwZLUdOuW5iavHlTV6J7j46ZR4SRMoIePy7bK/MfPoulidyfn08
+      4RHRMgI+CwkA89fPYeHGOT+XQLhAhoyABkICwGLhMuYGz/i9DIITWTICmggJAMsTOcx8+q7f
+      yyAaEDPSaO7ukyYjoJGQAEmpM+xJE7IfWKuVkABJqSNsO9DLDgwv2gkJACuVIuYGz1AHrgEq
+      ZQQ0FZJBHbh/qKgXrdBaSIBSuB+oqhet0F5IgFK4StjWrqoUXUsghGRQCpeHXym6lkAJCVC0
+      lEGi+wRajp7yLSqaCZyQjOWJHOYG+7FSeej3UgKLn7ViPQIrJIPSuHN0Sc9WBF5IYC2NL965
+      QmLawN4Jo0t6tiIUQjJITGuCICIjVEIySMw1WGpO7D+hvYiMUArJiKqYOteIdoRaSDPLEzks
+      3rmMxcIVv5ciBZaW47uzWnXNTomMkAwWNZcncqGYZcYzWST2nwi0hGYiJ6SZIMoZM9Lrr9UI
+      Um3Iy/8Bac0OBfVJuLgAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='164' name='School Type Counts' width='164'>
+      iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAYAAAAZtYVBAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAK/ElEQVR4nO3dy09c5xnH8R8zDLimTOyW0GrAC7KKMdlYQjFS44VZpDtTt5HSTSWrqiqx
+      yR+AV1UsZZcuKpxIlbzozpfIbjehqSuBLBmVRnLsZtxUNpXFRRYTLp7CMFxm6IK8cBjPzDnv
+      Oe/lec95PhtHwMw5kb467+XMpWVvb28PjBGRsn0CjHlxkIwUDpKRwkEyUjhIRgoHyUjhIBkp
+      rbZPwDWrmyWsbm5idbOEle/+W/z88G8Of7by+PCx3Sc69v89efjvj052oPtEBwbe6Db0f0Bb
+      C2+M1+cN79nKMlY3S5hdWZZ+nn9PbQT+WxHqQF83uk924K2+7sSFykF+RwT4bOVbzK4sh4qv
+      HpkgG+k+2YELZ/sSEWiig1zdLOGfC3NKA6ylIshaItBfDg8of27bEhekGHpFiLrpCNIrbnEm
+      IkgR4bOVZXy5MGf02LqD9Lpwtg9vvdGNC2f7jB1TtVgHKYbkvz39j7VzMBmk4PJVM5ZBUghR
+      sBGk4GKYsQqSUoiCzSC93h8ewPDZvoOtJapiESTFEAUqQQrUw3Q6SMohCtSCFN4fHiA5lDsb
+      5OzKMm48fnjklh1FVIME9ueYH/z8bVKb7c4F6cJV0YtykMJAXzc++MXbJIZxp4L84uk3zoQo
+      uBCkQGEYdyJI166KXi4FCexfLa/+5oK145MPcnWzhE//8YD8XLER14IE7M4tyQbp8lXRy8Ug
+      BRtDOMkgVzdLuPH4oZEXP+jmcpCA+SGcXJCuD9G1XA8SMDuEk3pPzepmCR9N3otNjHGxtLqB
+      sT/+Hf+aXdJ+LDJBfrkwh48m79k+DdbEx9c/w4vneuf0JIL84uk3uPH4oe3TYD7Otz9Cx2eX
+      sJO/o+0Y1oN0cbM7iS4dn8KljikAQHniCsoTY1qOY/VtsC9v3caT9TXgx3TupbJXvXPsq4MY
+      hZ38XVSLizj+3nWlx7J2hXx56zZe3rqNkc/voeeF/skyC+edY1/ht51/qfu7yvwMth6MKz2e
+      lSBFjAJHSVNXeq1hjML29LjSOaXxIDcmp47EKHCUtHSl1zD22p8C/W154goq8zNKjms0yHI+
+      j+VrnzT8PUdJg4jx9fTLwI8p3bysJEpjQe4WClj63Ye+f8dR2iWGaZkYBRVRGgkyaIzC8P1p
+      jtICEePpzPPQz1GeGEO1uBD68dqD3C0UsHztE+wWCoEf07m+wVFacL79UaQYAaBaXER54kro
+      x2sPcmNyClv5J9KP4yjN8m58RxVlO0hrkOV8vu6KOiiO0gyVMQrb0+Oh5pPagtwtFLBy7dPI
+      z8NR6lXvLowqYW4vagtSdt7YDEepR5CN7yiqxUWUbl6WeoyWIMPOG5vhKNXqSq/h9z/4g/bj
+      yM4nlQcpVtU6cJRqyNyFUWF7ejzwVpDyIHXFKHCU0YS5C6NC0K0gpUGW83nlQ3U9IsrOdfff
+      r2JSlLswUVXmZwKtupUFuVsoRNrikdW5voGffc5veQiqK72GS8enIm98RxFk1a0syK38EyNX
+      R6/O9Q386tafjR7TVefbH+H8sUdWz6FaXPRd4CgJUudCxg9H6U/HxndYfgscJUHailHgKBvT
+      ufEd1naTq2TkIHcLBeNDdT0c5auavf3Apv3349S/SkYO0uRCxg9HeUj3XZioGl0lIwW5Wyhg
+      Y5LWcMBRmt/4DqPRVTJSkJSujl5JjtLWxncY9a6SoYOkeHX0SmKUNje+w9jJ333lZ6GDpLCQ
+      8ZOkKFW8/cCG2n3JUEHa3HeU1bm+gZGY39HpSq8pefuBDdvTioJ0Sc+LpVhHeb79Ebm9Rhne
+      DxoIFSTVxUwzcY2S0l2YsCpzhy+6kA6SykZ4GHGLkuJdmDC8ixvpIF2NUYhLlKczz0lvfMsS
+      w7Z0kOuTk8pPxjTXo+xKr2HsBO2Nb1li2JYK0uXhuparUbpwFyYMcedGKsi4xCi4FqVLd2HC
+      qMzPyAUZh+G6litRunYXJozKnESQcRqua1GP0tW7MLJ28nflgowzylG6ehcmjMBBxvXq6EUx
+      yjhsfMsIHGQ5n9d5HmRQijJpMQIBg4zz/LEeClHG5S6MrMBBJo3NKKm//UCnQEEm6eroZSNK
+      Ux8CRRVfIX2YjDKud2FkcJABmIgy7ndhggoUZKXwre7zIE9nlEm4CxOUb5DV4gKw9V8T50Ke
+      jihdfvuBDr7fBrtXXETn6VkAQHWrDQCwW+xAZasN1e02VLcy2C1+X+9ZEiKivPPTYSXP5/rb
+      D1ST+nriVPs2AKDt9e1XfpekWHteLGH4/jTu/eRcpOdJ4sa3H98gd+eCfbVD0mJ98+n+NCZs
+      lEnd+PYTYMgO/zVhQlxjDRsl1Q+BosA3yGpxUesJuB6rbJRJvgsThNQc0jRXYg0aJW98+yMd
+      ZDPUYvWLkje+g3E2yGZsxdooSt74Ds7IooYS3bHWRpmUtx+oEssrZFiqYvVGyXdh5FhfZbtC
+      NtaBpXXgPjD0Q95rlOEbZCqb4yh9NIp1CLM2TsdpWr/AnTFZHCQjxTfIlmyPifNgDABfIRkx
+      vkGmsjkT58EYAL5CMmJ4DslI8R+yX+Mhm5kTYA7JV0hmjm+Q6d5BE+fBGICAixpeaTNTeJXN
+      SAkUJA/bzJRAQfLWDzMl2BySt36YIYGCzPSP6D4PxgBILGp4HslM4CAZKYGD5HkkMyFwkDyP
+      ZLqlsjm5jXEetplOLdkeuSAzZy7qOhfGkO4dlAySh22mUespySABHraZHuneQfkrJMDDNtND
+      dCUfJA/bTLFUNnfQVaiXn2X6+SrJ1PG+eCdUkOlTPI9k6rQPjR78d8gr5Ai/ipwpkcrmjiyU
+      Q79ivJXnkkyB2l2blr29vb2wT/a/jwcinxBLrlQ2h45f//Xoz6I8IS9uWBT19rQjBXns3atR
+      Hs4SLJXNoc2zmDn4edQn5qskCyPdO1j3QygiB1mvcsaaSWVzyJypvyiOHGQq28NXSSalJdvT
+      8DURSj4ogK+SLKhUNodj737Y+PdqDtKDtnMcJfPX2j/S9APMlH2USvvQKN+9YU2lsrkjtwnr
+      /o3KA/I2EGsmSB9KgxQvsmSsVtA2lH/6WbMJK0smv4XMkb9Vf3Be4LCj/BYyXlo+H7J9aJSH
+      bgZgf6j2W8h4afvAUh66mcxQffAYTeeCVLYHx9+7ruvpGXH7MV6V/tIErR/pnO4d5PlkQrX2
+      j4Satmn/jHGeTyZPkA3who9VfC518XwyOVLZHL4XYapmJEieTyZD2HnjkedQeD5NpXsHOcoY
+      EzFGnZ4Z/Z4ajjK+wi5iahn/4qR07yDPKWOm7dxo6EVMLSvf5JXpH+FXmceEyhiBiO/Ljqp0
+      8zIq8zO2Ds8iUh0jYDlIANh6MI7t6XGbp8BC0BEjQCBIANjJ30F54ort02AB6YoRIBIkAFTm
+      Z1C6edn2abAmUtkcWvtHtMUIEAoS4CgpE580ofsDa0kFCXCUFInbgVHuwARFLkgAqBYXUJ64
+      witwAkzGCBANUuAVuD0m5ov1kA4S4CHcBlPzxXrIBwnwEG6SuLVraoiu5USQAg/h+tgaoms5
+      FSTAV0sdMv0X0TY0au2q6OVckEJlfgbliTFUi4u2T8VZNueKjTgbpMDDuDwqw3M9zgcJ7A/j
+      O1/f5TB9iO+EoTI81xOLIAUOsz4XQhRiFaTAYe4TQ3PmzEXyIQqxDFJIapiU54h+Yh2kV2V+
+      Bjtf38FO/q7tU9FCDMvpU4OkVs2yEhOkIK6alfmZWOxlpnsHkTlz0ekIvRIXpJeLcaayuYOv
+      1XBpbhjU/wEHcRapqL9gjgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='164' name='School Type Killings' width='164'>
+      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
+      ktYAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Shooting Type Casualties' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAGM0lEQVR4nO3ZW29cVx2G8XcfZs+M7YntGY8PxG6aU0lVBSm0UkUvuAau4KNxzxfgkg+A
+      VJCKVFGJIJUQGiVO4tbxIbbHhznsMxegkKgWTaAwrt7ndzWzt2f+y9I88prloK7rWoCpcNoL
+      AKaJAGAtfvnJnx98pc/++nRaa4Gh9dVF7VbT24W/EsAf7z3RL3/98ZSWAkcf/fCm7pbV1Oaz
+      BYK1cwOIo1Ct5JU/DkoakZpJ/LXrL+7HkZqNV+/NthKFQfAtLRX491qN6I1fc+6nOWnEajcb
+      unVlRYOzscZprg/efUt/+tuXmmSFbt+4rC+e7upyf0GD07Fm2okmaa7RJNN719aUF6XKqtLB
+      8VDNJNbba1092TnSSrej0STX+7c29PnDbU2yQkkj0oOt/f/6l8d3WyuO9Is71/Xb+1taX5jT
+      48NTtRuxqrpWd6aprKh0MsnUnW2pN9dSWVV6uH+spbm2Hu0f6/blJeVlqbtfPn+juecG0Jlp
+      qr8wp6qWupdmFUeh7m3uaG6mqd78rBbm2lpZ7CgMAp2MJrq50dfm9oFWuh2N01yrvY6OTkfa
+      WF5Umhd6snOkq2s9tZoNvft2R1t7R3q0faCf//gHGk4yPfrqQGU1vX0gpm9SlHq4f6yzNNdc
+      s6E7G31Vda2/bB9olBVa7szo1uqi8rLS9vFQW0en+ujamoqq0uJMU5892dON/vwbzz03gLwo
+      NUoz5UWlVhJroTOj6+tL+uLpnsqy0nCcKooi9RZmNZxkevzsUGleKAwDZUWpOAo1TnM14lBp
+      Xmo4TjVKM12aa+l0NNHZKNX1y0vaPTzR6ShVVfPhhxSHodYX5lRLGqa5np+NNRinem+tp1Yj
+      0s7JSFVd6/nZWDeXF7RzMlIg6XiS6c5GX0ej9I1nBi//J/hXv/kDp0D4v/qmU6AoCPTBlWUd
+      jlI92Bt86/PP/0YLXBBlXevTx7v/s/fnGBTWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADWCADW
+      CADWCADWCADWCADWCADWCADWCADWCADWCADW4mkvAN7aSayfvfO9qc0nAExVFAXqrTSnNp8t
+      EKwRAKyxBcKFcXJwoEaSKG4mGh2fqN3paDI8U55mWlhe1u7jTYVRrHano5lOR3mWqshyHT17
+      ppn5eXW6XaWjkc4GA13q9dTpdr9xJgHgQqjrWo/u3tVgb0/LV66ov7Ghrfv3tXrtqvafbulw
+      e1tJu63Ryb4+//3vNN9fVpwkaiSJFARqzs5qZ3NT9z75RN//8ENd6vVeay4B4EKoylKT4ZmS
+      VkthGGp8eqogCDQ+PfvH/arS8HigMIzU33hLazduaDg4UhhFCsJQw8FAJwfP1V1dVZFlrz2X
+      AHAhRHGs93/yU4VBoCCKVBaF1qNIVVkqjCIpCFTmueJGQ0VRKAxDLa2vS5KCIFCRZQqjSHVV
+      vYjidRAALoxGkrx4HP7zcRhF/7rWbH7t5168tvmfHaVyCgRrBABrBABrBABrBABrBABrBABr
+      BABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABr
+      BABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABrBABr
+      8ctPLvfn9aPbV6e1Fhh6Z6Ov1U5navP/DmyqhsWLD5KEAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Shooting Type Counts' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAE70lEQVR4nO3ZS1NbZQDG8Yc2kDQkAUJzaWkxVNqKttPx0o5u3Ph9/C5+DNcu3XTGcaOO
+      M1IGyggUlFAClITmJDm5u7JDlKpMoXF4/r9VzuXNvO/iP+dNzki/3+8LMHVp2BMAhokAYC1y
+      /OCXX4v6aeW3Yc0FeCOfPLqto1brVGMGAvhxeUtfff34LOcEvDVfXk9pq1Y71Ri2QLB2LgHE
+      xiIaOY8vBv6DZi1Qr9cbONdq1NWsBer/5fzAFuhPd2ezWpjL6/vFDRXyaT3dKik/ndKLo5pu
+      38xovXigXDql8su6vnh4R49/XlMyHlW5WteIRvTp/YK++W5J7U73/FYJvEYYBOp2OjrY2lR6
+      5oYa1ap2VpZU+Oih+r2+dtdWNbPwgXZWV04OYK8cSCMlTSauKJtOamw0oqDRVGo8pqX15/r8
+      w3lFxyKqVBta2z5QtR7q0fvvqFytK2g0tbq197bXDLxSeb6jWCKpiWxOh8Vt9bpdpW/Mqryz
+      rUT6qtphqOLKsjKFuZO3QI1mW7O5KSXjMdXDluphS7+XyqoEDX28MKug0VRQb6q4X1Gn01U6
+      Na6joKHtvYouX7qk2dyUeL+GYRmLxzV6JaboeEKxREKtWqDgxYGi8XGNxeOSpPjEhIrLSyc/
+      AcJWW9/+8PRv50cjl9Xv9/VkbUeVoDFwbaN4cA5LAU7v2p33Xn2OJZPK3pofuJ7KZCVJ2Vvz
+      JwfwOqXDqkqH1TOYIvD/wN+gsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsBYZ9gSAs3L3alLX07FTjSEAXBiVZqj9dniqMWyBYI0AYKVcKg0cswXChbO7uanJTEYv
+      Dw+1s7au1PS0RqNRtcKGwlpNnVZbu5vPVLh3jycALp5yqaRWGOpof1/pa3n1el0FlbLeffBA
+      0ojWFxfV6/V1sF3kCYCLZyqX07MnS8rO3lQ0Hlen3VazXtfG4qKmcllNZjMql/YUS4wTAC6e
+      fKGgfKHwj/fMzM9L4kcwzBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArEWO
+      H8xkJvTZ/blhzQV4I5nxuEbbkX+/8Zg/AB8DD2cLKls2AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Shooting Type Killings' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAER0lEQVR4nO3bTW9UVRzH8d/ceej0kaEP1GasgKgpGlYYE+PSjUsXvjFfhu/CvSbExBSB
+      ILRIbUHaUujM3Hl0Z2woiQvsLL7fz+6ek0n+N5lvztncymQymUSCKqY9gDRNBiC02r8ffnnw
+      ND/f3Z3WLNKFufZJOwe9wdkAftreyfc//DilkaSL8/W3X+XO8WuvQGI7N4BatUizceZwSKNe
+      zUyj9sb6P/u1ambqZ/fmm40Ulco7GlV69879NzfqtczO1LN1dT3Hr7vploN8fvOD3Ln3R3r9
+      YW591M793YO011o5ftXN3GwjvXKQTq+fzz7cyGA4ymg8zouXp5lp1HJtYzk7+0dZX15MpzfI
+      7a3N/PpwL73+MI16NQ+ePL/o95aSvOUEWJybycbKUsaTZHlpPlffW872o/0szM2kvXYprYXZ
+      rF9eTFGp5KTTS3v1UopKJevLi+mWg6y25tOoV7N55XLaa63s7B/l+sZKlpfmc3trM0+eHeX3
+      vRf54tOr+XjzSqqFNzFNx7knwGA4SqfsZzAcp9mopbU4lxvvr+b+7rOMRuOcdstUq9WstOZz
+      2uvn8Z+HKQfDFEUl/eEotWqRbjlIvVakHIxy2i3TKftZWmjmVaeX150yN9qrOTg8yatOmfFk
+      fNHvLSV5SwCHJ50cnnTe+qOHT/9Kktx9fP7+3vOXb6xtP9rP9qP9M2u/7Rz8xzGl/4d3D6EZ
+      gNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0
+      AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCE
+      ZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA
+      0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQD
+      EJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRm
+      AEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQmgEIzQCEZgBCMwChGYDQ
+      DEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjMAoRmA0AxAaAYgNAMQ
+      mgEIzQCEZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYA
+      QjMAoRmA0AxAaAYgNAMQmgEIzQCEVC0qqRdFatMeRJqGb26u57uVpgGIqTMcpF9OvAKJzQCE
+      ZgBCMwChGYDQDEBoBiA0AxCaAQjNAIRmAEIzAKEZgNAMQGgGIDQDEJoBCM0AhGYAQjvzTXB7
+      7VK+vHV9WrNIF2ZtcSHVZpG/ATVisqivLrQNAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
